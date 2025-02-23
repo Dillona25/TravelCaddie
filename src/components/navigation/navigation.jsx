@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navigation = () => {
-  return <div>navigation</div>;
+  return <div className="bg-black">navigation</div>;
 };
 
 export default Navigation;
