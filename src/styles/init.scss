@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary": #2c3e2f,
+  "secondary": #f8f5f0,
+);
+
+.font-oxygen {
+  font-family: "Oxygen", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
