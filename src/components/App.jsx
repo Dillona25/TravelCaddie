@@ -1,9 +1,7 @@
-import Navigation from "./navigation/navigation";
-
 function App() {
   return (
     <>
-      <Navigation />
+      <p className="font-oxygen">Our Root</p>
     </>
   );
 }
