@@ -1,12 +1,11 @@
+@import "./buttons.scss";
+@import "./type.scss";
+
 $theme-colors: (
   "primary": #2c3e2f,
+  "primary-alt": #3c453d,
   "secondary": #f8f5f0,
 );
-
-.font-oxygen {
-  font-family: "Oxygen", sans-serif !important;
-  font-weight: 700 !important;
-}
 
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
