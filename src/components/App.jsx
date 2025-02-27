@@ -1,7 +1,9 @@
+import { Button } from "./buttons/buttons";
+
 function App() {
   return (
     <>
-      <p className="font-oxygen">Our Root</p>
+      <Button buttonText="Test Button" variant="primary" />
     </>
   );
 }
