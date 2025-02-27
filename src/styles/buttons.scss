@@ -31,12 +31,23 @@
 }
 
 .primary-button {
-  @include sliding-hover(#3c453d);
+  @include sliding-hover(#ecd5a0);
+  &:hover {
+    color: #000 !important;
+  }
 }
 
 .secondary-button {
   @include sliding-hover(#000000);
   &:hover {
     color: #fff !important;
+  }
+}
+
+.anchor-hover {
+  &:hover {
+    scale: 1.03;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
   }
 }

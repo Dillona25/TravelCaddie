@@ -1,6 +1,6 @@
 export const Button = ({ onClick, buttonText, className, variant }) => {
-  const primary = `primary-button rounded border-0 py-2 px-3 bg-primary text-white font-helvetica`;
-  const secondary = `secondary-button rounded border border-primary px-3 py-2 text-primary font-helvetica bg-white`;
+  const primary = `primary-button rounded border-0 py-2 px-4 bg-primary text-white font-helvetica`;
+  const secondary = `secondary-button rounded border border-primary px-4 py-2 text-primary font-helvetica bg-white`;
 
   let variantClass = variant === "secondary" ? secondary : primary;
 
