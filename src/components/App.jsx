@@ -1,8 +1,12 @@
+import { ClassNames } from "storybook/internal/theming";
+import { Button } from "./buttons/buttons";
+import Navigation from "./navigation/navigation";
+
 function App() {
   return (
-    <>
-      <p className="font-oxygen">Our Root</p>
-    </>
+    <div className="bg-secondary">
+      <Navigation />
+    </div>
   );
 }
 
